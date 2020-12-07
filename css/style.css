@@ -1,0 +1,484 @@
+/*.............................RESET..........................*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	
+	border-spacing: 0;
+}
+
+a:link{
+    text-decoration: none;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+li{
+    color: #fff;
+}
+
+mark{
+    color: rgb(23, 244, 252);
+    background-color: transparent;
+}
+/*.............................RESET..........................*/
+.wrapper{
+    width: 100vw;
+    display: flex;
+    
+}
+.heading{
+   height: 600px;
+}
+.heading img{
+    width: 100vw;
+}
+.text h1{
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+    z-index: 100;
+    color: white;
+    font-size: 50px;
+    
+    text-shadow: rgb(14, 13, 13) 1px 0 10px;
+
+}
+.triangle-{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 200px 200px 0;
+    border-color: transparent #007bff transparent transparent;
+    position: relative;
+    bottom: 600px;
+    left: 1350px;
+}
+.descrip{
+    width: 100wv;
+    color: rgb(33, 33, 107);
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.descrip p {
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    
+}
+.descrip ::after{
+    padding: 0;
+    width: 100vw;
+    height: 150px;
+    display: block;
+    content: '';
+    background: #DAE7FF;
+    background: linear-gradient(175deg, rgba(255,255,255,1) 50%, #DAE7FF 50%);
+}
+
+.part2-logo ::before{
+    width: 100vw;
+    height: 150px;
+    display: block;
+    content: '';
+    background: #DAE7FF;
+    background: linear-gradient(175deg, #DAE7FF 50%, rgba(255,255,255,1) 50%);
+    
+
+}
+.part2{
+    width: 200vw;
+    height: 250px;
+    display: block;
+    position: absolute;
+}
+.part2-logo{
+    width: 100vw;
+    height: 300px;
+    display: block;
+    background: #DAE7FF;
+    background: linear-gradient(175deg, #DAE7FF 50%, #ECF3FF 50%);
+
+    
+}
+
+.part2-logo img {
+    margin-left: 800px;
+}
+
+.part3{
+    
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+.part3 .left img{
+    left: 250px;
+    top:50px;
+    position: relative;
+}
+
+.part3 .right{
+    position: relative;
+    left: 400px;
+    top: 150px;
+    
+}
+
+.right p {
+    font-size: 20px;
+    color:rgb(33, 33, 107);
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #224483;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.par33 {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    display: block;
+    content: '';
+    background: #DAE7FF;
+    background: linear-gradient(175deg, #ECF3FF 50%, #000066 50%);
+    bottom: 400px;
+    z-index: -1;
+}
+.par34 {
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    display: block;
+    content: '';
+    background: #DAE7FF;
+    background: linear-gradient(175deg, #000066 50%, #000066 50%);
+    bottom: 400px;
+    z-index: -1;
+}
+.part4{
+    width: 100vw;
+    height: 400px;
+    position: relative;
+    background-color: #000066;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    bottom: 400px;
+
+}
+
+.sec{
+    margin: auto;
+}
+.sec img{
+    width: 200px;
+}
+
+.sec p{
+    color: #DAE7FF;
+    font-size: 20px;
+    
+    width: 250px;
+    height: 100px;
+
+
+}
+.par44{
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    display: block;
+    content: '';
+    background: #DAE7FF;
+    background: linear-gradient(175deg, #000066 50%, #ECF3FF 50%);
+    bottom: 400px;
+    z-index: -1;
+}
+
+.part5{
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    background-color: #ECF3FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 400px;
+
+}
+
+.text h2{
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.text {
+ color: rgb(33, 33, 107);
+ font-size: 20px;
+}
+
+.par55{
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    display: block;
+    content: '';
+    background: #DAE7FF;
+    background: linear-gradient(175deg, #ECF3FF 50%, #FFFFFF 50%);
+    bottom: 400px;
+    z-index: -1;
+}
+
+.part6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 400px;
+}
+
+.steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-weight: bolder;
+}
+.step{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.step p {
+    padding: 10px;
+}
+.step label img{
+    height: 50px;
+}
+
+.app-down img{
+    width: 200px;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.app-down{
+    display: flex;
+    flex-direction: row;
+}
+
+.par66{
+    
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    display: block;
+    content: '';
+    background: #DAE7FF;
+    background: linear-gradient(175deg, #FFFFFF 50%, #ECF3FF 50%);
+    bottom: 400px;
+    z-index: -1;
+    
+}
+
+.part7{
+    padding-left: 100px;
+    padding-right: 100px;
+    bottom: 400px;
+    position: relative;
+    background: #ECF3FF;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80vw;
+}
+.part7 p{
+    padding: 0 50px 20px 50px;
+   font-size: 27px;
+   font-weight: bold;
+   color: rgb(18, 18, 97);
+   
+}
+
+.button-submit{
+    width: 200px;
+    height: 50px;
+    font: 50px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background: #0b0e32;
+    height: fit-content;
+    bottom: 400px;
+    padding-top: 50px;
+    color: #fff;
+}
+.row-foot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.soc{
+    width: 30px;
+    height: 30px;
+}
+
+.main{
+    height: 3785px;
+}
+.zbni-img{
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+.messages{
+    border: 2px solid #fff;
+    border-radius: 40px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    
+}
+#wts-btn{
+    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.wts-btn label{
+    position: relative;
+}
+
+.col h3{
+    padding-bottom: 20px;
+}
+
+.foot-list {
+    line-height: 30px;
+    
+}
+
+.address{
+    
+    line-height: 30px;
+
+}
+
+.copy {
+    padding-top: 100px;
+    padding-bottom: 30px;
+   
+}
+.copyright-right p{
+    text-align: right;
+}
+
